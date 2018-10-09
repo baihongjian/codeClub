@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>第1课：摇滚乐队</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="../assets/i/favicon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="../assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+    <link rel="stylesheet" href="../assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <style>
+        .am-gallery-default .am-gallery-desc {
+            color: black;
+            font-size: 1.4rem;
+        }
+
+        .am-gallery-item button {
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+
+<body id="blog">
+
+<header class="am-g am-g-fixed blog-fixed blog-text-center blog-header">
+    <div class="am-u-sm-8 am-u-sm-centered">
+        <img width="200" src="../images/logo.png" alt="Amaze UI Logo"/>
+        <h2 class="am-hide-sm-only">让更多孩子，免费学习创意编程思维。</h2>
+    </div>
+</header>
+<hr>
+
+<nav class="am-g am-g-fixed blog-fixed blog-nav">
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only blog-button" data-am-collapse="{target: '#blog-collapse'}" ><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="blog-collapse">
+        <ul class="am-nav am-nav-pills am-topbar-nav">
+            <li class="am-active"><a href="lw-index.html">首页</a></li>
+            <li><a href="lw-article.html">ScratchJr</a></li>
+            <li><a href="scratch/scratch_list.html">Scratch</a></li>
+            </li>
+            <li><a href="lw-article.html">HTML & CSS</a></li>
+            <li><a href="lw-img.html">Python</a></li>
+            <li><a href="lw-article-fullwidth.html">APP Inventor</a></li>
+            <li><a href="lw-timeline.html">arduino</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<!-- content srart -->
+<div class="am-g am-g-fixed blog-fixed blog-content">
+    <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-title"><span>视频目录</span></h2>
+            <ul class="am-list">
+                <li><a href="#" style="text-align: left">任务1：添加架子鼓</a></li>
+                <li><a href="#" style="text-align: left">任务2：装饰舞台</a></li>
+                <li><a href="#" style="text-align: left">任务3：让架子鼓响起来</a></li>
+                <li><a href="#" style="text-align: left">任务4：请一位歌手</a></li>
+                <li><a href="#" style="text-align: left">任务5：为歌手造型</a></li>
+            </ul>
+        </div>
+        <div class="blog-clear-margin blog-sidebar-widget blog-bor am-g ">
+            <h2 class="blog-title"><span>资源下载</span></h2>
+            <div class="am-u-sm-12 blog-clear-padding">
+                <a href="" class="blog-tag">素材和源码</a>
+                <a href="" class="blog-tag">PDF文档</a>
+                <a href="" class="blog-tag">word文档</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="am-u-md-8 am-u-sm-12">
+        <style>
+            .scrollspy-nav {
+                top: 0;
+                z-index: 100;
+                background: #25adf1b8;
+                width: 100%;
+                padding: 0 10px;
+            }
+
+            .scrollspy-nav ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .scrollspy-nav li {
+                display: inline-block;
+                list-style: none;
+            }
+
+            .scrollspy-nav a {
+                color: #eee;
+                padding: 10px 20px;
+                display: inline-block;
+            }
+
+            .scrollspy-nav a.am-active {
+                color: #fff;
+                font-weight: bold;
+            }
+
+            .am-panel {
+                margin-top: 20px;
+            }
+
+        </style>
+
+
+        <article class="am-article blog-article-p">
+            <div class="am-article-hd">
+                <h1 class="am-article-title blog-text-center">第1课：摇滚乐队</h1>
+                <p class="am-article-meta blog-text-center">
+                    <span><a href="#">本文共&nbsp;</a></span>
+                    <span><a href="#">2379字</a></span>
+                </p>
+            </div>
+            <ol class="am-breadcrumb" style="margin-bottom: 0.1rem;">
+                <li><a href="#">内容导航</a></li>
+            </ol>
+            <nav class="scrollspy-nav" data-am-scrollspynav="{offsetTop: 45}" data-am-sticky>
+                <ul>
+                    <li><a href="#mask1">●任务1</a></li>
+                    <li><a href="#mask2">●任务2</a></li>
+                    <li><a href="#mask3">●任务3</a></li>
+                    <li><a href="#mask4">●任务4</a></li>
+                    <li><a href="#mask5">●任务5</a></li>
+                </ul>
+            </nav>
+            <br>
+            <div class="am-article-bd">
+                <div contenteditable="true" class="kalamu-area">
+                    <blockquote><p>《少儿创意学编程（Scratch基础篇）》，参考了英国公益组织发起的“code
+                        club（代码俱乐部）”——少儿免费学编程活动。愿为中国的少儿创意编程教育尽微薄之力，对国内的家长、信息教师和相关教育机构有所帮助，共同促进软件素质教育的发展。</p>
+                    </blockquote>
+                    <p>
+                        本课程以Scratch软件为教育工具。Scratch是一种图形化编程语言，由麻省理工学院开发。孩子们可以像搭积木一样，拖动和组合代码方块，制作丰富多样的程序，比如动画，故事和游戏等。本课程共设有6个项目，知识点由简到难，循序渐进，带领孩子们一步步体验创意编程世界的奇妙。技能知识点列表参考下图。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-20b39f97d4e84856.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>那么，开始学习第1课吧！</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-d82d02a7e5bf0473.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h2>课程简介</h2>
+                    <p>在本课程中，你将学会使用搭积木式的编程方法，组建自己独一无二的乐队。课程的知识点包括Scratch软件的基本操作和次序语句的理解。</p>
+                    <p>体验地址：https://kada.163.com/project/760178-259196.htm</p>
+                    <div id="mask1" class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-a42fee24526d6909.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <div  class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-04c45ecc14d4e4ad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p >一个摇滚乐队，肯定少不了乐器。第1个任务，开始为你的摇滚乐队添加一个架子鼓吧。在Scratch中，把这个“架子鼓”称作角色。接下来动动手，学会如何添加一个角色。</p>
+                    <h3>动手清单：</h3>
+                    <p>（1.1）步骤 1：打开Scratch。</p>
+                    <p>你可以打开下载好的Scratch离线编辑器（找不到的话，可以联系我），也可以使用在线的Scratch。这里使用网易卡搭的Scratch网页版，地址如下：</p>
+                    <p>https://kada.163.com/project/create.htm</p>
+                    <p>打开后，你会看到类似下面的界面。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-c595d30b542f8147.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.2）步骤 2：你可以看到一个可爱的机器人，将它删掉。</p>
+                    <p>具体操作：选中机器人 → 鼠标右键点击 → 选中删除。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-85342fef3e321bd6.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.3）步骤 3：打开“角色库”。</p>
+                    <p>具体操作：点击下方“新建角色”旁边的小人头像，打开“角色库”。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-a9af5300f69ff7cd.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.4）步骤 4：添加“架子鼓”角色。</p>
+                    <p>具体操作：在打开的“角色库”中，选中“物品” → 找到并选中“架子鼓”角色 → 点击确定。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-85760864bceebc0c.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.5）步骤5：缩小架子鼓。</p>
+                    <p>具体操作：选中“缩小”按钮 → 将架子鼓缩小一些。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-2eba8cb207c7ae4b.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.6）步骤6：保存项目。</p>
+                    <p>具体操作：点击上方的“文件”菜单 → 点击“下载到您的计算机” → 将文件保存到自己的计算机中。演示如下。</p>
+                    <div id="mask2" class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-242a270ae6df094e.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-0805aff9b0f2698b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>
+                        什么是舞台呢？舞台是所有角色活动的地方，就像现实生活中的舞台，演员（角色）们都在舞台上表演一样。仔细观察下图，红色方框标识的部分就是舞台的区域。目前舞台背景还是一片白色，你可以为舞台添加一个好看的背景。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-f3719d766dc10522.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>动手清单：</h1>
+                    <p>（2.1）步骤 1：打开“背景库”。</p>
+                    <p>具体操作：点击“新建背景”下的图标按钮，打开“背景库”，下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-04b231337285844c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（2.2）步骤 2：添加一个舞台背景。</p>
+                    <p>具体操作：在打开的“背景库”中 ，选中左侧的“室内” → 找到并选中一个舞台背景 → 点击“确定”。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-c82ae81457d1b9a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>那么，你的舞台现在应该是下面的样子。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-f6c3c9f0d7935498.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p id="mask3">（2.3）步骤 3：保存项目。</p>
+                    <p>具体操作：参考索引（1.6）的内容。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-ef0be82c3d96d825.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>架子鼓添加完了。当你点击架子鼓时，想不想让架子鼓发出些声音呢？接下来，动手试试怎么做！</p>
+                    <h1>操作清单：</h1>
+                    <p>（3.1）步骤 1：搭建积木（代码）。</p>
+                    <p>
+                        开始到了有意思的部分了。你可以在“脚本”选项卡中找到很多方块，它们就像积木一样，有不同的色彩，也有不同的功能。现在，看看你能否找到下图右侧区域的两个方块，并把它们拖动到右侧搭建起来，就像搭积木一样。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-4c0ecdc5dc84164b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>你做到了吗？用鼠标点击架子鼓，看看架子鼓是否发出声音呢？没找到的话，看看老师是怎么找到的。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-2a2d70d26d16be87.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（3.2）步骤 2：保存项目。</p>
+                    <p>参考索引（1.6）的内容。</p>
+                    <h1>挑战一下：</h1>
+                    <blockquote><p>你能改变架子鼓的声音吗？比如给它换一个钢琴的声音？参考下图。</p></blockquote>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-189b8a587effb7dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <blockquote><p>你能按下键盘上的空格键，让架子鼓发出声音吗？你可以找到下图所示的“当按下空格键”的方块，替换“当角色被点击时”的方块。</p></blockquote>
+                    <div id="mask4" class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-fd7336837aa94452.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-69f76387a08190e1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>舞台有了，乐器有了，但乐队不能没有歌手，因为歌手是一个乐队的灵魂。现在你可以为乐队添加一位歌手了。具体怎么做呢？</p>
+                    <h1>操作清单：</h1>
+                    <p>（4.1）步骤 1：从“角色库”中选择一位歌手和一个麦克风，添加到舞台上。</p>
+                    <p>具体操作：请参考索引（1.3）和（1.4）的内容。添加后的界面如下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-bec5d90004a0cb83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（4.2）步骤 2：歌手演唱之前，你需要为你的歌手添加声音。</p>
+                    <p>具体操作：选中歌手 → 点击“声音”选项卡 → 点击“从声音库中选取声音的”按钮。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-98a9ef5efa63f87f.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（4.3）步骤 3：选择一首歌曲。</p>
+                    <p>具体操作：在弹出的“声音库”中，选中“声乐” → 选中“singer1” → 点击确定按钮。这样，歌手的声音便添加进来。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-334619372252d4bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（4.4）步骤 4：让歌手唱起来。像让架子鼓响起来一样，你可以为歌手搭建积木方块。</p>
+                    <p>具体操作：请参考索引（3.1）的操作方式，选中歌手角色，找到并搭建下图所示的方块代码。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-25cb539b5346d28a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p id="mask5">搭建完毕，你可以用鼠标点击歌手，看看歌手是否开始唱歌了呢？</p>
+                    <p>（4.5）步骤 5：保存项目。</p>
+                    <p>具体操作：参考索引（1.6）的内容。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-5bbe9f88a1084baf.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>现在歌手可以唱歌了。接下来，你能不能让歌手在唱歌时，表情更丰富一些呢？那么，就为歌手造个型，装扮一下吧。</p>
+                    <h1>操作清单：</h1>
+                    <p>（5.1）步骤 1：打开歌手的造型界面。</p>
+                    <p>具体操作：选中歌手 → 点击“造型”选项卡。这样，就会出现歌手的造型界面，下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-b9e1ef24f30c9825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（5.2）步骤 2：复制一份歌手的造型。</p>
+                    <p>具体操作：选中歌手 → 鼠标右键点击 → 选择并点击“复制”。这样就将歌手的造型又复制了一份。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-ab10f0b4f76fb68c.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（5.3）步骤 3：绘制歌手的演唱状态。</p>
+                    <p>具体操作：选中Singer2歌手 → 选中右侧工具栏中的“线段”工具 → 绘制一些线条，表示正在歌唱（你也可以发挥自己的造型创意）。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-87b831d59ffcea55.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（5.4）步骤 4：分别修改两个歌手的名字，方便后面搭建方块的使用。</p>
+                    <p>具体操作：将“Singer1”修改为“不唱”；将“Singer2”修改为“演唱”。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-e3d3a0633acca641.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（5.5）步骤 5：点击歌手，改变歌手的演唱状态。</p>
+                    <p>具体操作：选中歌手 → 点击“脚本”选项卡 → 搭建下图所示的方块。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-a67e603cb51fe9f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>搭建完毕后，你点击歌手时，歌手演唱的状态就发生变化了。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-193b00c4da6d024f.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（5.6）步骤 6：保存项目。</p>
+                    <p>具体操作：参考索引（1.6）的内容。</p>
+                    <h1><b>挑战一下：</b></h1>
+                    <blockquote><p>通过前面的学习，你能让架子鼓看起来像被打击的样子吗？下图所示。</p></blockquote>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-e5e83cee8911eaab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>总结</h1>
+                    <p>
+                        通过本项目的学习，你终于可以建立一个属于你自己的摇滚乐队了。你还可以创建任何你喜欢的乐器，看一下声音库和造型库都还有哪些有意思的东西，希望能给你一些灵感。你的乐器也可以是食物，比如让蛋糕发出钢琴的声音，下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-e8b2960aea364104.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>发挥你的想象，在Scratch中尽情探索发现吧！</p>
+                    <blockquote><p><a href="http://www.juzimi.com/ju/118659" target="_blank"><b>世上最甜美的欢乐
+                        都是忧伤的果实。人间最纯美的东西 都是从苦难中来的。我们没有经历过的艰难 怎么懂得去安慰别人。</b></a></p></blockquote>
+
+                    <p><br></p></div>
+            </div>
+        </article>
+
+        <hr>
+        <div class="am-g blog-author blog-article-margin">
+            <div class="am-u-sm-3 am-u-md-3 am-u-lg-2">
+                <img src="../images/my.jpg" alt="" class="blog-author-img am-circle">
+            </div>
+            <div class="am-u-sm-9 am-u-md-9 am-u-lg-10">
+                <h3><span></span><span class="blog-color">大白老师</span></h3>
+                <p>1984年出生。现就职于吉林省一家软件编程在线教育公司，出版书籍有《零基础学HTML5+CSS3》、《案例学Web前端开发》等（吉林大学出版社）。
+                    留学韩国四年，研究生专业为旅游信息化。毕业后做过十余个大中型项目（JavaWeb技术），在Web前端领域研究多年。</p>
+            </div>
+        </div>
+        <hr>
+        <ul class="am-pagination blog-article-margin">
+            <li class="am-pagination-next"><a href="scratch_list_A_02.html">第2课 &raquo;太空迷航</a></li>
+        </ul>
+    </div>
+</div>
+<!-- content end -->
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<footer class="blog-footer">
+    <div class="am-g am-g-fixed blog-fixed am-u-sm-centered blog-footer-padding">
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>关于我们</h1>
+            <p class="am-text-sm">少儿代码俱乐部是面向5到12岁儿童的免费兴趣学习小组。
+                活动参照了英国公益组织发起的“code club（代码俱乐部）”——少儿免费学编程活动。
+            </p>
+            <h1>愿景</h1>
+            <p class="am-text-sm">
+                让更多孩子，免费学习创意编程思维。
+            </p>
+        </div>
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>相关链接</h1>
+            <p>
+            <ul>
+                <li><a href="https://www.codeclub.org.uk/" target="_blank">Code Club（英国）</a></li>
+                <li><a href="https://coderdojo.com/" target="_blank">CoderDojo（爱尔兰）</a></li>
+                <li><a href="https://code.org/" target="_blank">Code.org（美国）</a></li>
+                <li><a href="https://playentry.org" target="_blank">Entry.org（韩国）</a></li>
+            </ul>
+            </p>
+        </div>
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>扫描二维码</h1>
+            <p>关注我，欢迎随时提问 ^_^</p>
+            <img src="../images/rq.png" class="am-img-responsive" width="40%" alt=""/>
+        </div>
+    </div>
+    <div class="blog-text-center">© 2018 少儿代码俱乐部</div>
+</footer>
+
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="../assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="../assets/js/amazeui.min.js"></script>
+</body>
+</html>
