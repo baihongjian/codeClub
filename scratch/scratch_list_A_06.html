@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>第6课：赛艇比赛</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="../assets/i/favicon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="../assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+    <link rel="stylesheet" href="../assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <style>
+        .am-gallery-default .am-gallery-desc {
+            color: black;
+            font-size: 1.4rem;
+        }
+
+        .am-gallery-item button {
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+
+<body id="blog">
+
+<header class="am-g am-g-fixed blog-fixed blog-text-center blog-header">
+    <div class="am-u-sm-8 am-u-sm-centered">
+        <img width="200" src="../images/logo.png" alt="Amaze UI Logo"/>
+        <h2 class="am-hide-sm-only">让更多孩子，免费学习创意编程思维。</h2>
+    </div>
+</header>
+<hr>
+
+<nav class="am-g am-g-fixed blog-fixed blog-nav">
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only blog-button"
+            data-am-collapse="{target: '#blog-collapse'}"><span class="am-sr-only">导航切换</span> <span
+            class="am-icon-bars"></span></button>
+    <div class="am-collapse am-topbar-collapse" id="blog-collapse">
+        <ul class="am-nav am-nav-pills am-topbar-nav">
+            <li class="am-active"><a href="../index.html">首页</a></li>
+            <li><a href="#">ScratchJr</a></li>
+            <li><a href="scratch_list.html">Scratch</a></li>
+            </li>
+            <li><a href="#">HTML & CSS</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">APP Inventor</a></li>
+            <li><a href="#">arduino</a></li>
+        </ul>
+    </div>
+</nav>
+<hr>
+<!-- content srart -->
+<div class="am-g am-g-fixed blog-fixed blog-content">
+    <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-title"><span>视频目录</span></h2>
+            <ul class="am-list">
+                <li><a href="#" style="text-align: left">任务1：绘制游戏背景</a></li>
+                <li><a href="#" style="text-align: left">任务2：控制赛艇移动</a></li>
+                <li><a href="#" style="text-align: left">任务3：碰撞处理</a></li>
+                <li><a href="#" style="text-align: left">任务4：计时器</a></li>
+                <li><a href="#" style="text-align: left">任务5：再复杂点</a></li>
+            </ul>
+        </div>
+        <div class="blog-clear-margin blog-sidebar-widget blog-bor am-g ">
+            <h2 class="blog-title"><span>资源下载</span></h2>
+            <div class="am-u-sm-12 blog-clear-padding">
+                <a href="" class="blog-tag">素材和源码</a>
+                <a href="" class="blog-tag">PDF文档</a>
+                <a href="" class="blog-tag">word文档</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="am-u-md-8 am-u-sm-12">
+        <style>
+            .scrollspy-nav {
+                top: 0;
+                z-index: 100;
+                background: #0e90d2;
+                width: 100%;
+                padding: 0 10px;
+            }
+
+            .scrollspy-nav ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .scrollspy-nav li {
+                display: inline-block;
+                list-style: none;
+            }
+
+            .scrollspy-nav a {
+                color: #eee;
+                padding: 10px 20px;
+                display: inline-block;
+            }
+
+            .scrollspy-nav a.am-active {
+                color: #fff;
+                font-weight: bold;
+            }
+
+            .am-panel {
+                margin-top: 20px;
+            }
+
+        </style>
+
+        <ul class="am-pagination blog-article-margin">
+            <li class="am-pagination-prev"><a href="scratch_list_A_05.html">第5课 &raquo;绘画板</a></li>
+            <li class="am-pagination-next"><a href="scratch_list.html">返回目录</a></li>
+        </ul>
+        <article class="am-article blog-article-p">
+            <div class="am-article-hd">
+                <h1 class="am-article-title blog-text-center">第6课：赛艇比赛</h1>
+                <p class="am-article-meta blog-text-center">
+                    <span><a href="#">本文共&nbsp;</a></span>
+                    <span><a href="#">1721字</a></span>
+                </p>
+            </div>
+            <ol class="am-breadcrumb" style="margin-bottom: 0.1rem;">
+                <li><a href="#">内容导航</a></li>
+            </ol>
+            <nav class="scrollspy-nav" data-am-scrollspynav="{offsetTop: 45}" data-am-sticky>
+                <ul>
+                    <li><a href="#mask1">●任务1</a></li>
+                    <li><a href="#mask2">●任务2</a></li>
+                    <li><a href="#mask3">●任务3</a></li>
+                    <li><a href="#mask4">●任务4</a></li>
+                    <li><a href="#mask5">●任务5</a></li>
+                </ul>
+            </nav>
+            <br>
+            <div class="am-article-bd">
+                <div contenteditable="true" class="kalamu-area">
+                    <blockquote><p>《少儿创意学编程（Scratch基础篇）》，参考了英国公益组织发起的“code
+                        club（代码俱乐部）”——少儿免费学编程活动。愿为中国的少儿创意编程教育尽微薄之力，对国内的家长、信息教师和相关教育机构有所帮助，共同促进软件素质教育的发展。</p>
+                    </blockquote>
+                    <p>
+                        本课程以Scratch软件为教育工具。Scratch是一种图形化编程语言，由麻省理工学院开发。孩子们可以像搭积木一样，拖动和组合代码块，制作丰富多样的程序，比如动画，故事和游戏等等。本课程共设有6个项目，知识点由简到难，循序渐进，带领孩子一步一步体验创意编程世界的奇妙。具体技能知识点如下图所示。</p>
+                    <div class="image-package  " data-index="1"><img class="uploaded-img"
+                                                                     src="https://upload-images.jianshu.io/upload_images/1469819-20b39f97d4e84856.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                                     style="min-height:200px;min-width:200px;"
+                                                                     width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>那么，开始学习第6课吧！</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-53dd248929321562.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>课程简介</h1>
+                    <p>在本系列课程的最后项目中，我们将制作一个赛艇游戏，用鼠标来指引一艘小船到达目的地。</p>
+                    <p>这个项目是前面所学知识点的综合应用。</p>
+                    <p id="mask1">体验地址：https://kada.163.com/project/758470-259196.htm</p>
+                    <p>如下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-8126d0dac31dd28d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>任务1：绘制游戏背景</h1>
+                    <p>首先绘制一个海洋和沙滩的游戏背景。</p>
+                    <h1>动作清单：</h1>
+                    <p>（1.1）步骤 1：打开Scratch。</p>
+                    <p>【具体操作】你可以打开下载好的Scratch离线编辑器（找不到的话，可以联系我），也可以使用在线的Scratch。这里使用网易卡搭的Scratch网页版，地址如下：</p>
+                    <p>https://kada.163.com/project/create.htm</p>
+                    <p>打开后，你会看到类似下面的界面。</p>
+                    <div class="image-package  " data-index="2"><img class="uploaded-img"
+                                                                     src="https://upload-images.jianshu.io/upload_images/1469819-6b953db295c58b86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                                     style="min-height:200px;min-width:200px;"
+                                                                     width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.2）步骤 2：删除机器人。</p>
+                    <p>【具体操作】演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-0e11f55a5b6653d2.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.3）步骤 3：绘制游戏背景。</p>
+                    <p>【具体操作】选中“绘制新背景” → 使用画笔和填充工具绘制。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-6b4df600c0ee1f31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p id="mask2">（1.4）保存项目。</p>
+                    <p>【具体操作】演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-1677586aac896323.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>任务2：控制赛艇移动</h1>
+                    <p>接下来，添加一个赛艇角色，并用鼠标控制赛艇的移动。</p><h4>动手清单：</h4>
+                    <p>（2.1）步骤1：添加赛艇角色。</p>
+                    <p>【具体操作】 准备一张赛艇的图片。下图所示。（你可以直接右键点击图片 → 保存到本地计算机 即可）。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-bfef34fafa41baa3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>然后点击“从本地文件中上传角色”，将本地的赛艇图片上传，同时缩小图片。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-8def158f73d31425.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（2.2）步骤2：鼠标控制赛艇移动（搭积木）。</p>
+                    <p>【具体操作】选中赛艇角色 → 找到并搭建方块（代码）。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-23bd419de63d56fb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>点击绿色小旗，观察赛艇移动效果。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-b645139edcb6733d.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>继续修正代码，让赛艇到鼠标的距离大于5像素时，才开始移动。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-ca18cff1dde33694.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>可以发现，在重复执行方块中，又添加了“如果...那么”方块。这叫做方块的嵌套，是不是觉得很高级呢？</p>
+                    <p id="mask3">（2.3）保存项目。</p>
+                    <p>【具体操作】参考本课（1.4）的内容。</p>
+                    <h1>任务3：碰撞处理。</h1>
+                    <p>游戏的规则，赛艇跟随鼠标的引导，在不碰撞棕色障碍物的前提下，抵达黄色的海滩，即胜利。任务3，我们来处理赛艇和障碍物的碰撞问题。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-5e0607220daeb5eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h4>动手清单：</h4>
+                    <p>（3.1）步骤1：改变赛艇的造型。</p>
+                    <p>当赛艇和障碍物碰撞的时候，我们添加一个赛艇被撞毁的造型。</p>
+                    <p>【具体操作】选中“赛艇”角色 → 点击“造型”选项卡 → 复制一个赛艇。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-3c5da7ff893995e4.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>最后，我们改造完的撞毁赛艇。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-e8a20d0f6ec4a0d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（3.2）步骤2：搭建方块，检测是否碰撞。</p>
+                    <p>【具体操作】选中赛艇角色 → 找到并搭建下图所示的方块。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-82c4aa17476d35f7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>挑战一下</h1>
+                    <blockquote><p>你能不能让赛艇走到海滩的位置时，弹出“胜利”的语句呢？</p>
+                        <p>你能不能让赛艇撞毁时，发出声音呢？</p></blockquote>
+                    <p id="mask4">（3.3）保存项目。</p>
+                    <p>【具体操作】参考本课（1.4）的内容。</p>
+                    <h1>任务4：计时器。</h1>
+                    <p>再给游戏添加一个计时器，计算游戏胜利总共花费多长时间。</p><h4>动手清单：</h4>
+                    <p>（4.1）步骤1：创建“时间”变量。</p>
+                    <p>【具体操作】选择“数据”模块 → 点击“新建变量” → 创建一个名为“时间”的变量。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-7b6ad644767093d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（4.2）步骤2：给游戏添加计时器（搭积木）。</p>
+                    <p>【具体操作】选中“背景”舞台 → 找到并搭建下图所示的方块。</p>
+                    <p><br></p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-dfcc2d8f4bb37c89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p id="mask5">（4.3）保存项目。</p>
+                    <p>【具体操作】参考本课（1.4）的内容。</p>
+                    <h1>任务5：再复杂点</h1>
+                    <p>游戏现在看起来已经比较完善了，那么，能不能再复杂点呢？</p><h4>动作清单：</h4>
+                    <p>（5.1）步骤1：绘制一个旋转的障碍物。</p>
+                    <p>【具体操作】点击 “绘制新角色” → 点击“线段”工具 → 绘制横线障碍物。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-92b4a25e2d3594e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（5.2）步骤2：让障碍物动态旋转（搭积木）。</p>
+                    <p>【具体操作】选中这个“障碍物”角色 → 找到并搭建下图所示的方块。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-e38b7a6f3e6ff16c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>点击绿色小旗，你就会看到下面的演示效果。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-9e02049ba8241e88.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>挑战一下</h1>
+                    <blockquote><p>你可以添加更多的障碍物，从而增加游戏的难度和乐趣。参考下图。</p></blockquote>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-40fc7da9f57d3f07.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（5.3）保存项目。</p>
+                    <p>【具体操作】参考本课（1.4）的内容。</p>
+                    <h1>总结</h1>
+                    <p>
+                        这是本系列课程的最后一个项目，是不是很有意思呢？赛艇比赛游戏项目综合应用了前面课程学习的知识点，有一定的难度。但是，老师相信你，做完这个项目，是不是对Scratch的魔法方块越来越熟悉了呢？</p>
+                    <p>最后，发挥你的想象，这个游戏可不可以两个人一起玩呢？</p>
+                    <hr>
+                    <p>《少儿创意学编程（Scratch基础篇）》到此告一段落。</p>
+                    <p>《少儿创意学编程（Scratch中级篇）》即将远帆起航。</p>
+                    <blockquote><p>不从恶人的计谋，不站罪人的道路，不坐亵慢人的座位。</p></blockquote>
+
+                    <p><br></p></div>
+            </div>
+        </article>
+
+        <hr>
+        <div class="am-g blog-author blog-article-margin">
+            <div class="am-u-sm-3 am-u-md-3 am-u-lg-2">
+                <img src="../images/my.jpg" alt="" class="blog-author-img am-circle">
+            </div>
+            <div class="am-u-sm-9 am-u-md-9 am-u-lg-10">
+                <h3><span></span><span class="blog-color">大白老师</span></h3>
+                <p>1984年出生。现就职于吉林省一家软件编程在线教育公司，出版书籍有《零基础学HTML5+CSS3》、《案例学Web前端开发》等（吉林大学出版社）。
+                    留学韩国四年，研究生专业为旅游信息化。毕业后做过十余个大中型项目（JavaWeb技术），在Web前端领域研究多年。</p>
+            </div>
+        </div>
+        <hr>
+        <ul class="am-pagination blog-article-margin">
+            <li class="am-pagination-prev"><a href="scratch_list_A_05.html">第5课 &raquo;绘画板</a></li>
+            <li class="am-pagination-next"><a href="scratch_list.html">返回目录</a></li>
+        </ul>
+    </div>
+</div>
+<!-- content end -->
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<footer class="blog-footer">
+    <div class="am-g am-g-fixed blog-fixed am-u-sm-centered blog-footer-padding">
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>关于我们</h1>
+            <p class="am-text-sm">少儿代码俱乐部是面向5到12岁儿童的免费兴趣学习小组。
+                活动参照了英国公益组织发起的“code club（代码俱乐部）”——少儿免费学编程活动。
+            </p>
+            <h1>愿景</h1>
+            <p class="am-text-sm">
+                让更多孩子，免费学习创意编程思维。
+            </p>
+        </div>
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>相关链接</h1>
+            <p>
+            <ul>
+                <li><a href="https://www.codeclub.org.uk/" target="_blank">Code Club（英国）</a></li>
+                <li><a href="https://coderdojo.com/" target="_blank">CoderDojo（爱尔兰）</a></li>
+                <li><a href="https://code.org/" target="_blank">Code.org（美国）</a></li>
+                <li><a href="https://playentry.org" target="_blank">Entry.org（韩国）</a></li>
+            </ul>
+            </p>
+        </div>
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>扫描二维码</h1>
+            <p>关注我，欢迎随时提问 ^_^</p>
+            <img src="../images/rq.png" class="am-img-responsive" width="40%" alt=""/>
+        </div>
+    </div>
+    <div class="blog-text-center">© 2018 少儿代码俱乐部</div>
+</footer>
+
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="../assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="../assets/js/amazeui.min.js"></script>
+</body>
+</html>

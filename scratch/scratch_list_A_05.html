@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>第5课：绘画板</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="../assets/i/favicon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="../assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+    <link rel="stylesheet" href="../assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <style>
+        .am-gallery-default .am-gallery-desc {
+            color: black;
+            font-size: 1.4rem;
+        }
+
+        .am-gallery-item button {
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+
+<body id="blog">
+
+<header class="am-g am-g-fixed blog-fixed blog-text-center blog-header">
+    <div class="am-u-sm-8 am-u-sm-centered">
+        <img width="200" src="../images/logo.png" alt="Amaze UI Logo"/>
+        <h2 class="am-hide-sm-only">让更多孩子，免费学习创意编程思维。</h2>
+    </div>
+</header>
+<hr>
+
+<nav class="am-g am-g-fixed blog-fixed blog-nav">
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only blog-button"
+            data-am-collapse="{target: '#blog-collapse'}"><span class="am-sr-only">导航切换</span> <span
+            class="am-icon-bars"></span></button>
+    <div class="am-collapse am-topbar-collapse" id="blog-collapse">
+        <ul class="am-nav am-nav-pills am-topbar-nav">
+            <li class="am-active"><a href="../index.html">首页</a></li>
+            <li><a href="#">ScratchJr</a></li>
+            <li><a href="scratch_list.html">Scratch</a></li>
+            </li>
+            <li><a href="#">HTML & CSS</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">APP Inventor</a></li>
+            <li><a href="#">arduino</a></li>
+        </ul>
+    </div>
+</nav>
+<hr>
+<!-- content srart -->
+<div class="am-g am-g-fixed blog-fixed blog-content">
+    <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-title"><span>视频目录</span></h2>
+            <ul class="am-list">
+                <li><a href="#" style="text-align: left">任务1：制作一支铅笔</a></li>
+                <li><a href="#" style="text-align: left">任务2：更换铅笔颜色</a></li>
+                <li><a href="#" style="text-align: left">任务3：清除舞台</a></li>
+                <li><a href="#" style="text-align: left">任务4：调整铅笔粗度</a></li>
+            </ul>
+        </div>
+        <div class="blog-clear-margin blog-sidebar-widget blog-bor am-g ">
+            <h2 class="blog-title"><span>资源下载</span></h2>
+            <div class="am-u-sm-12 blog-clear-padding">
+                <a href="" class="blog-tag">素材和源码</a>
+                <a href="" class="blog-tag">PDF文档</a>
+                <a href="" class="blog-tag">word文档</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="am-u-md-8 am-u-sm-12">
+        <style>
+            .scrollspy-nav {
+                top: 0;
+                z-index: 100;
+                background: #0e90d2;
+                width: 100%;
+                padding: 0 10px;
+            }
+
+            .scrollspy-nav ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .scrollspy-nav li {
+                display: inline-block;
+                list-style: none;
+            }
+
+            .scrollspy-nav a {
+                color: #eee;
+                padding: 10px 20px;
+                display: inline-block;
+            }
+
+            .scrollspy-nav a.am-active {
+                color: #fff;
+                font-weight: bold;
+            }
+
+            .am-panel {
+                margin-top: 20px;
+            }
+
+        </style>
+
+        <ul class="am-pagination blog-article-margin">
+            <li class="am-pagination-prev"><a href="scratch_list_A_04.html">第4课 &raquo;聊天机器人</a></li>
+            <li class="am-pagination-next"><a href="scratch_list_A_06.html">第6课 &raquo;赛艇比赛</a></li>
+        </ul>
+        <article class="am-article blog-article-p">
+            <div class="am-article-hd">
+                <h1 class="am-article-title blog-text-center">第5课：绘画板</h1>
+                <p class="am-article-meta blog-text-center">
+                    <span><a href="#">本文共&nbsp;</a></span>
+                    <span><a href="#">1847字</a></span>
+                </p>
+            </div>
+            <ol class="am-breadcrumb" style="margin-bottom: 0.1rem;">
+                <li><a href="#">内容导航</a></li>
+            </ol>
+            <nav class="scrollspy-nav" data-am-scrollspynav="{offsetTop: 45}" data-am-sticky>
+                <ul>
+                    <li><a href="#mask1">●任务1</a></li>
+                    <li><a href="#mask2">●任务2</a></li>
+                    <li><a href="#mask3">●任务3</a></li>
+                    <li><a href="#mask4">●任务4</a></li>
+                </ul>
+            </nav>
+            <br>
+            <div class="am-article-bd">
+                <div contenteditable="true" class="kalamu-area">
+                    <blockquote><p>《少儿创意学编程（Scratch基础篇）》，参考了英国公益组织发起的“code
+                        club（代码俱乐部）”——少儿免费学编程活动。愿为中国的少儿创意编程教育尽微薄之力，对国内的家长、信息教师和相关教育机构有所帮助，共同促进软件素质教育的发展。</p>
+                    </blockquote>
+                    <p>
+                        本课程以Scratch软件为教育工具。Scratch是一种图形化编程语言，由麻省理工学院开发。孩子们可以像搭积木一样，拖动和组合代码块，制作丰富多样的程序，比如动画，故事和游戏等等。本课程共设有6个项目，知识点由简到难，循序渐进，带领孩子一步一步体验创意编程世界的奇妙。具体技能知识点如下图所示。</p>
+                    <div class="image-package  " data-index="1"><img class="uploaded-img"
+                                                                     src="https://upload-images.jianshu.io/upload_images/1469819-20b39f97d4e84856.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                                     style="min-height:200px;min-width:200px;"
+                                                                     width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>那么，开始学习第5课吧！</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-2432c815ce736075.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <h1>课程简介</h1>
+                    <p>在这个项目中，我们来学习制作一个绘画板。</p>
+                    <p id="mask1">体验地址：https://kada.163.com/project/760183-259196.htm</p>
+                    <p>如下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-160daa43239a313b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-43288284e3ba4e70.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>首先来制作一支铅笔吧。</p>
+                    <h1>动手清单：</h1>
+                    <p>（1.1）步骤 1：打开Scratch。</p>
+                    <p>【具体操作】你可以打开下载好的Scratch离线编辑器（找不到的话，可以联系我），也可以使用在线的Scratch。这里使用网易卡搭的Scratch网页版，地址如下：</p>
+                    <p>https://kada.163.com/project/create.htm</p>
+                    <p>打开后，你会看到类似下面的界面。</p>
+                    <div class="image-package  " data-index="1"><img class="uploaded-img"
+                                                                     src="https://upload-images.jianshu.io/upload_images/1469819-6b953db295c58b86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                                     style="min-height:200px;min-width:200px;"
+                                                                     width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.2）步骤 2：为舞台添加一只铅笔。</p>
+                    <p>【具体操作】请参考《第1课：摇滚乐队》中（1.2）到（1.5）的内容。完成后，界面如下图。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-c64bd8660d321797.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.3）步骤 3：对铅笔造型。</p>
+                    <p>【具体操作】选中铅笔 → 选中“造型”选项卡 → 删除一个造型 → 为形状填色。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-f34644e05e744cf8.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.4）步骤 4：把铅笔造型的名字修改为“蓝色铅笔”。如图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-50ac936d7f29365b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.5）步骤 5：让铅笔跟随鼠标移动（搭积木）。</p>
+                    <p>【具体操作】选中铅笔角色 → 找到并搭建下图所示的方块。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-370b25b04ee9d6b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.6）步骤 6：设置移动中心。</p>
+                    <p>在上个步骤中，你会发现，鼠标指针一直指向铅笔的中部，没有指向笔尖的位置。可以在“造型”选项卡中解决这个问题。</p>
+                    <p>【具体操作】选中铅笔角色 → 选中“造型”选项卡 → 选中“设置造型中心”。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-8cae258adff0e656.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（1.7）步骤 7：画出线条。</p>
+                    <p>【具体操作】选中铅笔角色 → 找到并搭建如下图所示的方块。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-891e69645e3cbd73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>这时，你应该可以用这只铅笔画画了。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-7f74839921cdcad3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p id="mask2">（1.8）步骤 8：保存项目。</p>
+                    <p>【具体操作】请参考《第1课：摇滚乐队》中（1.6）的内容。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-5a1815dee074ced4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>绘画板，当然需要更多颜色的铅笔，接下来，我们就来添加另一只彩色铅笔。你可以在此基础上，添加更多彩色铅笔。</p><h4>动手清单：</h4>
+                    <p>（2.1）步骤1：复制一只绿色铅笔。</p>
+                    <p>【具体操作】选中铅笔角色 → 选中“造型”选项卡 → 复制蓝色铅笔 → 将复制铅笔改为绿色。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-84fc1c78914e665d.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（2.2）步骤2：为铅笔添加广播（搭积木）。</p>
+                    <p>【具体操作】选中铅笔角色 → 找到并搭建下图所示的方块。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-94f4c2f790faf073.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>这里出现了“广播事件”，后边会详细解释，看老师如何进行操作的。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-ae8185c7502fa8ac.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（2.3）步骤3：绘制颜色选择按钮。</p>
+                    <p>【具体操作】选中“绘制新角色” → 选择“矩形”工具 → 绘制一个正方形 →填充颜色。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-f5af2d95a70b50b3.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（2.4）步骤4：为颜色选择按钮添加控制方块（搭积木）。</p>
+                    <p>【具体操作】选中“绿色”按钮 → 找到并搭建方块。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-09e568ae71d6e4f1.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>大家应该发现，“广播事件”的接收与监听，都是配套使用的。也就是说，鼠标点击“绿色按钮”时，会发出一个名字为“绿色”的广播事件；同时，就需要一个接收“绿色”的广播事件。</p>
+                    <p>那么，蓝色选择按钮的广播事件，你应该也会搭建了吧。如图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-9192ce34225389dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>现在你应该可以切换不同的颜色，来画画了。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-0a62ea0937b3603b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p id="mask3">（2.5）步骤5：保存项目。</p>
+                    <p>【具体操作】参考本课（1.8）的内容。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-ae15c9e2123d9fd1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>画画的时候，经常会出错。所以，一个清除按钮必不可少。动手试一试吧。</p>
+                    <h1>动手清单：</h1>
+                    <p>（3.1）步骤1：添加一个清除按钮到舞台上。</p>
+                    <p>【具体操作】打开“角色库” → 找到一个“清除”按钮角色 → 点击确定。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-42c3ec91638324c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（3.2）步骤2：给“清除按钮”搭建方块。</p>
+                    <p>【具体操作】选中清除按钮角色 → 找到并搭建下图所示的方块。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-b638d9178a2b8a4c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>这样，每次点击清除按钮的时候，舞台又是干干净净的了。</p>
+                    <h1>挑战一下</h1>
+                    <blockquote><p>如果不想清除全部内容，你能制作出一个橡皮擦功能吗？参考下图。</p></blockquote>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-36b580579fbe7428.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p id="mask4">（3.3）步骤3：保存项目。</p>
+                    <p>【具体操作】参考本课（1.8）的内容。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-cbb59bd97cb03abc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>你可以再为画板添加一个调整铅笔粗度的功能。</p><h4>动手清单：</h4>
+                    <p>（4.1）步骤1：添加“笔粗”变量。</p>
+                    <p>【具体操作】选中“数据”选项卡 → 点击“新建变量” → 点击 确定。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-12d9c4b6b4bee8df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（4.2）步骤2：将“笔粗”变量添加到铅笔上（搭积木）。</p>
+                    <p>【具体操作】选中铅笔角色 → 找到并搭建方块（代码）。下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-2c5f292a0a862c7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（4.3）步骤3：修改“笔粗”造型。</p>
+                    <p>【具体操作】对于舞台上的“笔粗”变量，可以修改它的造型。演示如下。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-4e2456d3d89f59f1.gif?imageMogr2/auto-orient/strip"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>此时，你试一试，是否能改变铅笔的粗度呢？下图所示。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-c773f644c27b013f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <p>（4.4）保存项目。</p>
+                    <p>【具体操作】参考本课（1.8）的内容。</p>
+                    <h1>总结</h1>
+                    <p>
+                        随着学习的深入，你可能发现，搭积木的难度似乎越来越大了。但是，老师也一定相信，你现在对这些不同功能的方块也越来越熟悉。那么，发挥你的想象，能不能让这个绘画板功能越来越丰富呢？比方说给绘画板添加一些快捷键呢？参考下图。</p>
+                    <div class="image-package"><img class="uploaded-img"
+                                                    src="https://upload-images.jianshu.io/upload_images/1469819-d429d7d7a4e8e4a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                                                    width="auto" height="auto"><br>
+                        <div class="image-caption"></div>
+                    </div>
+                    <blockquote><p><b>人有见识，就不轻易发怒；宽恕人的过失，便是自己的荣耀。</b></p></blockquote>
+                    <p><br></p></div>
+            </div>
+        </article>
+
+        <hr>
+        <div class="am-g blog-author blog-article-margin">
+            <div class="am-u-sm-3 am-u-md-3 am-u-lg-2">
+                <img src="../images/my.jpg" alt="" class="blog-author-img am-circle">
+            </div>
+            <div class="am-u-sm-9 am-u-md-9 am-u-lg-10">
+                <h3><span></span><span class="blog-color">大白老师</span></h3>
+                <p>1984年出生。现就职于吉林省一家软件编程在线教育公司，出版书籍有《零基础学HTML5+CSS3》、《案例学Web前端开发》等（吉林大学出版社）。
+                    留学韩国四年，研究生专业为旅游信息化。毕业后做过十余个大中型项目（JavaWeb技术），在Web前端领域研究多年。</p>
+            </div>
+        </div>
+        <hr>
+        <ul class="am-pagination blog-article-margin">
+            <li class="am-pagination-prev"><a href="scratch_list_A_04.html">第4课 &raquo;聊天机器人</a></li>
+            <li class="am-pagination-next"><a href="scratch_list_A_06.html">第6课 &raquo;赛艇比赛</a></li>
+        </ul>
+    </div>
+</div>
+<!-- content end -->
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<footer class="blog-footer">
+    <div class="am-g am-g-fixed blog-fixed am-u-sm-centered blog-footer-padding">
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>关于我们</h1>
+            <p class="am-text-sm">少儿代码俱乐部是面向5到12岁儿童的免费兴趣学习小组。
+                活动参照了英国公益组织发起的“code club（代码俱乐部）”——少儿免费学编程活动。
+            </p>
+            <h1>愿景</h1>
+            <p class="am-text-sm">
+                让更多孩子，免费学习创意编程思维。
+            </p>
+        </div>
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>相关链接</h1>
+            <p>
+            <ul>
+                <li><a href="https://www.codeclub.org.uk/" target="_blank">Code Club（英国）</a></li>
+                <li><a href="https://coderdojo.com/" target="_blank">CoderDojo（爱尔兰）</a></li>
+                <li><a href="https://code.org/" target="_blank">Code.org（美国）</a></li>
+                <li><a href="https://playentry.org" target="_blank">Entry.org（韩国）</a></li>
+            </ul>
+            </p>
+        </div>
+        <div class="am-u-sm-12 am-u-md-4- am-u-lg-4">
+            <h1>扫描二维码</h1>
+            <p>关注我，欢迎随时提问 ^_^</p>
+            <img src="../images/rq.png" class="am-img-responsive" width="40%" alt=""/>
+        </div>
+    </div>
+    <div class="blog-text-center">© 2018 少儿代码俱乐部</div>
+</footer>
+
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="../assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="../assets/js/amazeui.min.js"></script>
+</body>
+</html>
